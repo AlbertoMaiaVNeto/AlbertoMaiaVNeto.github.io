@@ -1,0 +1,32 @@
+body{
+  margin: 0px;
+  font-family: "poppins";
+}
+
+h1,h2,h3,p{
+  margin: 0px;
+}
+
+ul{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a{
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+.subtitulo{
+  font-size: 8rem;
+  text-transform: uppercase;
+  word-break: break-all;
+  width: 3ch;
+  line-height: 1;
+}

@@ -1,0 +1,47 @@
+.contato{
+  padding: 120px 20px 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  color: white;
+  position: relative;
+  align-items: center;
+}
+
+.contato::after{
+  content: "";
+  width: 130px;
+  height: 100px;
+  background-image: url(/img/detalhe.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -50px;
+}
+.footer-background{
+  background-color: #000;
+}
+
+.footer-texto{
+  font-size: 1.5rem;
+  line-height: 1.33;
+  color: #bdbcbc;
+}
+
+.lista-contato{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.lista-contato li{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.copy{
+  color: #525252;
+  font-size: 1.125rem;
+}
